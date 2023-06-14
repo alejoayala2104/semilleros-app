@@ -1,23 +1,32 @@
+// Modules
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonModule } from 'primeng/button';
-import { CreateCoordinadorComponent } from './create-coordinador/create-coordinador.component';
+import { InputTextModule } from 'primeng/inputtext';
+import { MenubarModule } from 'primeng/menubar';
+
+//Components
+import { AppComponent } from './app.component';
+import { CreateUserComponent } from './create-user/create-user.component';
+import { TestComponent } from './test/test.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateCoordinadorComponent
+    CreateUserComponent,
+    TestComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ButtonModule
+    ButtonModule,
+    InputTextModule,
+    MenubarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
