@@ -9,9 +9,9 @@ import { MenubarModule } from 'primeng/menubar';
 
 //Components
 import { AppComponent } from './app.component';
-import { CreateUserComponent } from './create-user/create-user.component';
-import { TestComponent } from './test/test.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { CreateUserComponent } from './components/create-user/create-user.component';
+import { TestComponent } from './components/test/test.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
